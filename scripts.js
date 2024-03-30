@@ -19,7 +19,7 @@ async function fetchInputFileContent(fileInput) {
 // Function to handle GitHub API request
 async function handleGitHubAPIRequest(inputCode) {
     try {
-        const response = await fetch(‘YOUR_GITHUB_API_URL’, {
+        const response = await fetch(‘https://api.github.com/jimjonesbabyfreshout.github.io/resilient-website/’, {
             method: ‘POST’,
             headers: {
                 ‘Content-Type’: ‘application/json’
